@@ -21,5 +21,10 @@ const todos = [
   }
 ];
 
+//findIndex
 const idx = todos.findIndex(todo => todo.id === 3);
 console.log(idx);
+
+//find
+const object = todos.find(object => object.id === 3);
+console.log(object);
